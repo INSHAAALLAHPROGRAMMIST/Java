@@ -25,8 +25,7 @@ public class RatingBarExample extends AppCompatActivity {
 		@Override
 		public void onClick(View v) {
 		Toast.makeText(getApplicationContext(),"Rating Value: "+ratingBar.getRating(),Toast.LENGTH_SHORT).show();
-    
-    }
-    });
-  }
+		}
+	});
+	}
 }
